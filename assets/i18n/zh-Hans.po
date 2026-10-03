@@ -1551,3 +1551,14 @@ msgid ""
 "keep their copy. Connect to WhatsApp to delete it. This cannot be undone."
 msgstr ""
 
+#: src/ui/settings.rs:769
+msgid "On startup"
+msgstr "启动时"
+
+#: src/ui/settings.rs:771
+msgid "Restore last open chat"
+msgstr "恢复上次打开的聊天"
+
+#: src/ui/settings.rs:774
+msgid "When off, start on the chat list. Your last chat stays remembered."
+msgstr "关闭后，启动时显示聊天列表。上次打开的聊天仍会保留。"

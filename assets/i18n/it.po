@@ -1603,3 +1603,14 @@ msgid ""
 "keep their copy. Connect to WhatsApp to delete it. This cannot be undone."
 msgstr ""
 
+#: src/ui/settings.rs:769
+msgid "On startup"
+msgstr "All'avvio"
+
+#: src/ui/settings.rs:771
+msgid "Restore last open chat"
+msgstr "Ripristina l'ultima chat aperta"
+
+#: src/ui/settings.rs:774
+msgid "When off, start on the chat list. Your last chat stays remembered."
+msgstr "Se disattivato, mostra l'elenco delle chat all'avvio. L'ultima chat resta memorizzata."

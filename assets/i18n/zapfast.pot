@@ -1547,3 +1547,712 @@ msgstr ""
 #, rust-format
 msgid "{count} unread chats"
 msgstr ""
+
+#: src/ui/settings.rs:769
+msgid "On startup"
+msgstr ""
+
+#: src/ui/settings.rs:771
+msgid "Restore last open chat"
+msgstr ""
+
+#: src/ui/settings.rs:774
+msgid "When off, start on the chat list. Your last chat stays remembered."
+msgstr ""
+
+#: src/ui/settings.rs:800 src/ui/settings.rs:827
+msgid "App lock"
+msgstr ""
+
+#: src/ui/settings.rs:803
+msgid ""
+"Asks for a password at start and after a while unused. It keeps people using "
+"this computer out of your chats and encrypts nothing more. A forgotten "
+"password means unlinking."
+msgstr ""
+
+#: src/ui/settings.rs:810
+msgid "Turn off…"
+msgstr ""
+
+#: src/ui/settings.rs:811
+msgid "Change password…"
+msgstr ""
+
+#: src/ui/settings.rs:814
+msgid "Set password…"
+msgstr ""
+
+#: src/ui/settings.rs:828 src/ui/settings.rs:835
+msgid "Lock after"
+msgstr ""
+
+#: src/ui/settings.rs:838
+msgid ""
+"Time without using ZapFast, also counted while it is in the tray. "
+"Ctrl+Shift+L locks it at once."
+msgstr ""
+
+#: src/ui/settings.rs:880
+msgid "Set an app lock password"
+msgstr ""
+
+#: src/ui/settings.rs:881
+msgid "Change the app lock password"
+msgstr ""
+
+#: src/ui/settings.rs:882
+msgid "Turn off the app lock"
+msgstr ""
+
+#: src/ui/settings.rs:892
+msgid "Current password"
+msgstr ""
+
+#: src/ui/settings.rs:899
+#, rust-format
+msgid "New password, at least {count} characters"
+msgstr ""
+
+#: src/ui/settings.rs:904
+msgid "Type the new password again"
+msgstr ""
+
+#: src/ui/settings.rs:928
+#, rust-format
+msgid "The password needs at least {count} characters."
+msgstr ""
+
+#: src/ui/settings.rs:930
+msgid "The two new passwords are different."
+msgstr ""
+
+#: src/ui/settings.rs:931 src/ui/lock.rs:85
+msgid "Wrong password. Try again."
+msgstr ""
+
+#: src/ui/settings.rs:938
+msgid "Turn on"
+msgstr ""
+
+#: src/ui/settings.rs:939
+msgid "Change password"
+msgstr ""
+
+#: src/ui/settings.rs:940
+msgid "Turn off"
+msgstr ""
+
+#: src/ui/settings.rs:1043
+msgid "How to make a theme"
+msgstr ""
+
+#: src/ui/settings.rs:1084 src/ui/settings.rs:1093
+msgid "Auto"
+msgstr ""
+
+#: src/ui/settings.rs:1180
+msgid "Add doodles"
+msgstr ""
+
+#: src/ui/settings.rs:1184
+msgid "Show the default doodles over the selected colour."
+msgstr ""
+
+#: src/ui/settings.rs:1268
+msgid "Choose image…"
+msgstr ""
+
+#: src/ui/settings.rs:1269
+msgid "Remove image"
+msgstr ""
+
+#: src/ui/settings.rs:1297
+msgctxt "wallpaper colour"
+msgid "Theme"
+msgstr ""
+
+#: src/ui/settings.rs:1426
+msgid "Linked device"
+msgstr ""
+
+#: src/ui/settings.rs:1437
+msgid "Edit your name and About"
+msgstr ""
+
+#: src/ui/settings.rs:1501
+msgid "Save"
+msgstr ""
+
+#: src/ui/settings.rs:1568
+msgid "A native WhatsApp client built with Rust, egui, and whatsapp-rust."
+msgstr ""
+
+#: src/ui/settings.rs:1579
+#, rust-format
+msgid "Update to {version}"
+msgstr ""
+
+#: src/ui/settings.rs:1681
+msgid "Mention sound"
+msgstr ""
+
+#: src/ui/settings.rs:1682
+msgid "When a group mentions you or replies to you."
+msgstr ""
+
+#: src/ui/settings.rs:1685
+msgid "Message sound"
+msgstr ""
+
+#: src/ui/settings.rs:1702
+msgid "Pidgin alert"
+msgstr ""
+
+#: src/ui/settings.rs:1703
+msgid "System default"
+msgstr ""
+
+#. Translators: no notification sound.
+#: src/ui/settings.rs:1705
+msgctxt "sound"
+msgid "None"
+msgstr ""
+
+#: src/ui/settings.rs:1742
+msgid "Choose a file…"
+msgstr ""
+
+#. Translators: {name} is replaced by the author's name, shown as a link.
+#: src/ui/widgets.rs:730
+#, rust-format
+msgid "Built with love by {name}"
+msgstr ""
+
+#: src/ui/message_info.rs:44
+msgid "This message is no longer available."
+msgstr ""
+
+#: src/ui/message_info.rs:87
+msgid "Loading…"
+msgstr ""
+
+#: src/ui/message_info.rs:171
+msgid "Played"
+msgstr ""
+
+#: src/ui/message_info.rs:173
+msgid "Read"
+msgstr ""
+
+#: src/ui/message_info.rs:178
+msgid "Delivered"
+msgstr ""
+
+#: src/ui/message_info.rs:194
+msgid "Time not recorded"
+msgstr ""
+
+#: src/ui/message_info.rs:216
+msgid ""
+"No receipts were recorded for this message. Details are available for "
+"messages sent from now on."
+msgstr ""
+
+#: src/ui/message_info.rs:228
+msgid ""
+"Some receipts for this message were not recorded. Details are complete for "
+"messages sent from now on."
+msgstr ""
+
+#: src/ui/message_info.rs:238
+msgid "Played by"
+msgstr ""
+
+#: src/ui/message_info.rs:247
+msgid "Read by"
+msgstr ""
+
+#: src/ui/message_info.rs:255
+msgid "Delivered to"
+msgstr ""
+
+#: src/ui/message_info.rs:265
+#, rust-format
+msgid "{} remaining"
+msgid_plural "{} remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/message_info.rs:292
+msgid "No one yet"
+msgstr ""
+
+#: src/app.rs:1373
+msgid "Could not delete the removed account's files"
+msgstr ""
+
+#: src/app.rs:1841
+#, rust-format
+msgid "A label named “{name}” already exists."
+msgstr ""
+
+#: src/app.rs:1917
+#, rust-format
+msgid "{name} (You)"
+msgstr ""
+
+#: src/app.rs:1918 src/app.rs:1937
+msgid "You"
+msgstr ""
+
+#: src/app.rs:2784
+msgid "Could not use this image"
+msgstr ""
+
+#: src/app.rs:3281
+msgid "Not sent: ZapFast is not connected to WhatsApp."
+msgstr ""
+
+#: src/app.rs:3285
+msgid ""
+"Not sent: the message you’re replying to isn’t available on this computer. "
+"Cancel the reply to send without a quote."
+msgstr ""
+
+#: src/app.rs:4791
+msgid "Added to favorites"
+msgstr ""
+
+#: src/app.rs:4866
+msgid "Sending the sticker pack…"
+msgstr ""
+
+#: src/app.rs:5159 src/ui/labels.rs:253
+#, rust-format
+msgid "You have {limit} labels, the most ZapFast keeps."
+msgstr ""
+
+#: src/app.rs:5839
+msgid "App lock password saved"
+msgstr ""
+
+#: src/app.rs:5847
+msgid "App lock turned off"
+msgstr ""
+
+#: src/app.rs:5960
+msgid "This video opens in your system player"
+msgstr ""
+
+#: src/app.rs:6392
+msgid "Copied image"
+msgstr ""
+
+#: src/app.rs:6395 src/app.rs:6400
+msgid "Failed to copy image"
+msgstr ""
+
+#: src/ui/labels.rs:68
+msgctxt "label colour"
+msgid "Blue"
+msgstr ""
+
+#: src/ui/labels.rs:69
+msgctxt "label colour"
+msgid "Green"
+msgstr ""
+
+#: src/ui/labels.rs:70
+msgctxt "label colour"
+msgid "Yellow"
+msgstr ""
+
+#: src/ui/labels.rs:71
+msgctxt "label colour"
+msgid "Orange"
+msgstr ""
+
+#: src/ui/labels.rs:72
+msgctxt "label colour"
+msgid "Red"
+msgstr ""
+
+#: src/ui/labels.rs:73
+msgctxt "label colour"
+msgid "Pink"
+msgstr ""
+
+#: src/ui/labels.rs:74
+msgctxt "label colour"
+msgid "Purple"
+msgstr ""
+
+#: src/ui/labels.rs:75
+msgctxt "label colour"
+msgid "Teal"
+msgstr ""
+
+#: src/ui/labels.rs:76
+msgctxt "label colour"
+msgid "Grey"
+msgstr ""
+
+#: src/ui/labels.rs:77
+msgctxt "label colour"
+msgid "Sky blue"
+msgstr ""
+
+#: src/ui/labels.rs:78
+msgctxt "label colour"
+msgid "Colour"
+msgstr ""
+
+#: src/ui/labels.rs:157
+msgid "Manage labels"
+msgstr ""
+
+#: src/ui/labels.rs:206
+msgid "Manage labels…"
+msgstr ""
+
+#: src/ui/labels.rs:242
+msgid ""
+"Labels stay on this computer. They do not reach your phone or anyone you "
+"chat with."
+msgstr ""
+
+#: src/ui/labels.rs:263
+msgid "New label"
+msgstr ""
+
+#: src/ui/labels.rs:277
+msgid "Create"
+msgstr ""
+
+#: src/ui/labels.rs:307
+msgid ""
+"No labels yet. Create one above, then add chats to it from their right-click "
+"menu."
+msgstr ""
+
+#: src/ui/labels.rs:342
+msgid "Next colour"
+msgstr ""
+
+#: src/ui/labels.rs:391
+#, rust-format
+msgid "{} chat"
+msgid_plural "{} chats"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/labels.rs:412
+msgid "Rename or recolour"
+msgstr ""
+
+#: src/ui/labels.rs:437
+msgid "Delete this label. Its chats keep their messages."
+msgstr ""
+
+#: src/ui/picker.rs:1187
+msgid "Recent"
+msgstr ""
+
+#: src/ui/picker.rs:1189
+msgid "Received"
+msgstr ""
+
+#: src/ui/picker.rs:1190
+msgid "Add stickers"
+msgstr ""
+
+#: src/ui/picker.rs:1225
+msgid "Search by emoji, word, or pack"
+msgstr ""
+
+#: src/ui/picker.rs:1264
+msgid "No stickers match your search."
+msgstr ""
+
+#: src/ui/picker.rs:1278
+msgid "Loading your stickers…"
+msgstr ""
+
+#: src/ui/picker.rs:1280
+msgid "Stickers you send appear here."
+msgstr ""
+
+#: src/ui/picker.rs:1289
+msgid ""
+"Right-click any sticker to add it to your favorites. They stay in sync with "
+"your phone."
+msgstr ""
+
+#: src/ui/picker.rs:1295
+msgid "Stickers people send you appear here."
+msgstr ""
+
+#: src/ui/picker.rs:1310
+msgid "Remove this pack"
+msgstr ""
+
+#: src/ui/picker.rs:1324
+msgid "Send this pack to the chat"
+msgstr ""
+
+#: src/ui/picker.rs:1338
+msgid "Nothing here yet. Right-click any sticker to add it to this pack."
+msgstr ""
+
+#: src/ui/picker.rs:1411
+msgid "Import a pack"
+msgstr ""
+
+#: src/ui/picker.rs:1419
+msgid ""
+"Paste a signal.art link from signalstickers.org, or open a .wastickers file."
+msgstr ""
+
+#: src/ui/picker.rs:1429
+msgid "Make your own"
+msgstr ""
+
+#: src/ui/picker.rs:1437
+msgid ""
+"Start a pack, then right-click any sticker to add it. Or turn a picture into "
+"a sticker."
+msgstr ""
+
+#: src/ui/picker.rs:1449
+msgid "Make a sticker from a picture…"
+msgstr ""
+
+#: src/ui/picker.rs:1464
+msgid "Create pack"
+msgstr ""
+
+#: src/ui/picker.rs:1475
+msgid "New pack…"
+msgstr ""
+
+#: src/ui/picker.rs:1508
+msgid "Find packs"
+msgstr ""
+
+#: src/ui/picker.rs:1509
+msgid "Open file"
+msgstr ""
+
+#: src/ui/picker.rs:1524
+msgid "Paste a signal.art link"
+msgstr ""
+
+#: src/ui/picker.rs:1552
+msgid "Browse signalstickers.org"
+msgstr ""
+
+#: src/ui/picker.rs:1568
+msgid "Importing the pack…"
+msgstr ""
+
+#: src/ui/picker.rs:1617
+msgid "Remove from recents"
+msgstr ""
+
+#: src/ui/pane.rs:123
+msgid "Close search"
+msgstr ""
+
+#: src/ui/pane.rs:151 src/ui/pane.rs:329
+msgid "Filter by date"
+msgstr ""
+
+#: src/ui/pane.rs:204
+#, rust-format
+msgid "Search messages with {}"
+msgstr ""
+
+#: src/ui/pane.rs:227
+msgid "No messages found"
+msgstr ""
+
+#: src/ui/pane.rs:228
+msgid "Try another word or pick a different day."
+msgstr ""
+
+#: src/ui/pane.rs:255
+#, rust-format
+msgid "Only the newest {} matches are listed. Narrow the search or pick a day."
+msgstr ""
+
+#: src/ui/pane.rs:344
+msgid "Clear the day filter"
+msgstr ""
+
+#: src/ui/pane.rs:411
+msgid "Next month"
+msgstr ""
+
+#: src/ui/pane.rs:423
+msgid "Previous month"
+msgstr ""
+
+#: src/privacy.rs:42
+msgctxt "privacy"
+msgid "Last seen"
+msgstr ""
+
+#: src/privacy.rs:43
+msgctxt "privacy"
+msgid "Online"
+msgstr ""
+
+#: src/privacy.rs:44
+msgctxt "privacy"
+msgid "Profile photo"
+msgstr ""
+
+#: src/privacy.rs:45
+msgctxt "privacy"
+msgid "About"
+msgstr ""
+
+#: src/privacy.rs:46
+msgctxt "privacy"
+msgid "Groups"
+msgstr ""
+
+#: src/privacy.rs:47
+msgctxt "privacy"
+msgid "Read receipts"
+msgstr ""
+
+#: src/privacy.rs:48
+msgctxt "privacy"
+msgid "Calls"
+msgstr ""
+
+#: src/privacy.rs:58
+msgid "Who can add you to groups."
+msgstr ""
+
+#: src/privacy.rs:60
+msgid "For your whole account. Groups always send them."
+msgstr ""
+
+#: src/privacy.rs:139
+msgctxt "privacy"
+msgid "Everyone"
+msgstr ""
+
+#: src/privacy.rs:140
+msgctxt "privacy"
+msgid "My contacts"
+msgstr ""
+
+#: src/privacy.rs:141
+msgctxt "privacy"
+msgid "My contacts except…"
+msgstr ""
+
+#: src/privacy.rs:142
+msgctxt "privacy"
+msgid "Nobody"
+msgstr ""
+
+#: src/privacy.rs:143
+msgctxt "privacy"
+msgid "Same as last seen"
+msgstr ""
+
+#: src/privacy.rs:144
+msgctxt "privacy"
+msgid "Silence unknown callers"
+msgstr ""
+
+#: src/ui/image_preview.rs:174
+msgid "Save as…"
+msgstr ""
+
+#: src/ui/image_preview.rs:176
+msgid "Open in another app"
+msgstr ""
+
+#: src/ui/lock.rs:17
+msgid "ZapFast is locked"
+msgstr ""
+
+#: src/ui/lock.rs:23
+msgid "Unlinking this computer…"
+msgstr ""
+
+#: src/ui/lock.rs:52
+msgid "Enter your password to unlock."
+msgstr ""
+
+#: src/ui/lock.rs:66
+msgid "Password"
+msgstr ""
+
+#: src/ui/lock.rs:76
+#, rust-format
+msgid "Too many wrong passwords. Try again in {seconds} s."
+msgstr ""
+
+#: src/ui/lock.rs:97
+msgid "Unlock"
+msgstr ""
+
+#: src/ui/lock.rs:108
+msgid "Forgot password? Unlink this computer"
+msgstr ""
+
+#: src/ui/lock.rs:123
+msgid "Unlink this computer?"
+msgstr ""
+
+#: src/ui/lock.rs:131
+msgid ""
+"Without the password, the only way back in is to unlink. This removes the "
+"device from WhatsApp, deletes the chats stored here, and turns the app lock "
+"off. You can link again with a new code."
+msgstr ""
+
+#: src/ui/lock.rs:139
+msgid "Unlink"
+msgstr ""
+
+#: src/notify.rs:280
+msgid "New message"
+msgstr ""
+
+#: src/settings.rs:340
+msgid "After 1 minute"
+msgstr ""
+
+#: src/settings.rs:341
+msgid "After 15 minutes"
+msgstr ""
+
+#: src/settings.rs:342
+msgid "After 1 hour"
+msgstr ""
+
+#: src/account.rs:214
+#, rust-format
+msgid "Account {id}"
+msgstr ""
+
+#: src/ui/accounts.rs:33
+msgid "Switch account"
+msgstr ""
+
+#: src/ui/accounts.rs:84
+msgid "Not linked"
+msgstr ""
+
+#: src/ui/accounts.rs:232
+#, rust-format
+msgid "{count} unread chats"
+msgstr ""

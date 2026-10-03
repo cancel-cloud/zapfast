@@ -1607,3 +1607,14 @@ msgid ""
 "keep their copy. Connect to WhatsApp to delete it. This cannot be undone."
 msgstr ""
 
+#: src/ui/settings.rs:769
+msgid "On startup"
+msgstr "Başlangıçta"
+
+#: src/ui/settings.rs:771
+msgid "Restore last open chat"
+msgstr "Son açık sohbeti geri yükle"
+
+#: src/ui/settings.rs:774
+msgid "When off, start on the chat list. Your last chat stays remembered."
+msgstr "Kapalıyken sohbet listesiyle başlat. Son sohbet hatırlanmaya devam eder."

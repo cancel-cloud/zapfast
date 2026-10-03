@@ -115,6 +115,12 @@ name or description, in the interface language or in English.
 - **Locked chats code**: the local code that opens the **Locked** tab. It hides
   chats and adds no encryption beyond the encrypted message archive.
 
+**On startup**
+
+- **Restore last open chat**: on by default. When off, ZapFast starts on the
+  chat list with no conversation open, but still remembers the last chat for
+  the next launch after you turn this back on.
+
 **Notifications**
 
 - **Desktop notifications**: for chats you are not looking at. Muted chats stay
