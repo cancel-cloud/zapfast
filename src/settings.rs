@@ -493,6 +493,7 @@ pub struct Settings {
 }
 
 impl Default for Settings {
+    /// Keeps the existing startup restoration behavior for older settings files.
     fn default() -> Self {
         Self {
             version: SETTINGS_VERSION,
@@ -891,6 +892,7 @@ mod tests {
         assert_eq!(saved["font"], "inter");
     }
 
+    /// Existing files restore chats; a disabled preference survives a round trip.
     #[test]
     fn restoring_the_last_chat_defaults_on_and_persists_when_disabled() {
         let older: Settings = serde_json::from_str(r#"{"last_chat":"chat"}"#).unwrap();

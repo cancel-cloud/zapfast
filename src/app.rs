@@ -950,6 +950,8 @@ impl App {
         Self::with_accounts(dirs, settings, roster, vec![account], 0, waker)
     }
 
+    /// Builds the app from loaded accounts and applies the startup chat choice
+    /// only to the active account's initial selection.
     fn with_accounts(
         dirs: AppDirs,
         settings: Settings,
@@ -11044,6 +11046,8 @@ mod tests {
         assert!(app.conversations.is_empty());
     }
 
+    /// Disabling restoration leaves the saved chat intact and permits normal
+    /// opening during the session and restoration after re-enabling it.
     #[test]
     fn startup_can_leave_the_remembered_chat_closed_until_reenabled() {
         let root = tempfile::tempdir().unwrap();
